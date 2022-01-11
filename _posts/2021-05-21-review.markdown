@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies"
+date:   2021-05-21 20:00:00 +00:00
+image: /images/checklist.png
+categories: research
+authors: "<strong>Weronika Hryniewska</strong>, Przemysław Bombiński, Patryk Szatkowski, Paulina Tomaszewska, Artur Przelaskowski, Przemysław Biecek"
+venue: "Pattern Recognition"
+paper: https://www.sciencedirect.com/science/article/pii/S0031320321002223
+arxiv: https://arxiv.org/abs/2012.08333
+code: https://github.com/Hryniewska/checklist
+---
+The review study of approaches proposed in the numerous Machine Learning articles and indication of typical errors emerging from the lack of deep understanding of the radiography domain. We present the perspective of both: experts in the field - radiologists and deep learning engineers dealing with model explanations. The final result is a proposed checklist with the minimum conditions to be met by a reliable COVID-19 diagnostic model.
