@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Case Study"
+title:  "Case Study - Deep Learning on medical image data"
 date:   2020-03-01 20:00:00 +00:00
 image: /images/case2020.png
 categories: teaching
