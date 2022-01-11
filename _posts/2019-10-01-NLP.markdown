@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Text Mining"
+date:   2019-10-01 20:00:00 +00:00
+image: /images/nlp.png
+categories: teaching
+university: WUT
+author: "Weronika Hryniewska"
+courserole: "Supporting assistant"
+website: https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2%2Fprzedmioty%2FpokazPrzedmiot&kod=1120-DS000-MSP-0122&lang=en
+---
+
+This course focuses on basic theory, advanced models and methods for information retrieval in large textual data sets.

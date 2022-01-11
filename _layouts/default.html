@@ -107,8 +107,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Intel Projects</h2>
-              <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly disclosed work
+              <h2>Teaching</h2>
+              <p>Teaching assistance in courses.
               </p>
             </td>
           </tr>
@@ -117,7 +117,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
+          {% if cat == 'teaching' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="https://hryniewska.github.io/website{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -125,13 +125,25 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <em>{{post.university}} {{post.courserole}}</em>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
 
               <br>
-              {% if post.website %}
+			  {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+			  {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+			  {% if post.website %}
               <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.website1 %}
+              <a href="{{post.website1}}">website1</a> /
+              {% endif %}
+			  {% if post.website2 %}
+              <a href="{{post.website2}}">website2</a> /
               {% endif %}
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
@@ -151,14 +163,8 @@
               {% if post.video2 %}
               <a href="{{post.video2}}">video #2</a> /
               {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -175,7 +181,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
+              <p>These include coursework, side projects and unpublished research work.
               </p>
             </td>
           </tr>
@@ -184,7 +190,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
+          {% if cat != 'research' and cat != 'teaching' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="https://hryniewska.github.io/website{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -192,7 +198,7 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <em>{{post.university}} {{post.courserole}}</em>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
 
