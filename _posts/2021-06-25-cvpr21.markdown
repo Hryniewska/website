@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Prevention is better than cure: a case study of the abnormalities detection in the chest"
+date:   2021-06-25 20:00:00 +00:00
+image: /images/prevention.png
+categories: research
+venue: "CVPR Workshops (Beyond Fairness: Towards a Just, Equitable, and Accountable Computer Vision)"
+authors: "<strong>Weronika Hryniewska</strong>, Piotr Czarnecki, Jakub Wiśniewski, Przemysław Bombiński, Przemysław Biecek"
+paper: https://drive.google.com/file/d/1-B5T3FCAHzDJbOaPtBnf5l9NnK-yhJtZ/view
+poster: https://drive.google.com/file/d/1a3uCOBpI06lNNieJwu5mC1soREfkNFA-/view
+---
+
+Faults in the data acquisition and annotation process in a dataset for detection of abnormalities in X-ray lung images.
+
+<blockquote>
+  <p>
+Prevention is better than cure. This old truth applies not only to the prevention of diseases but also to the prevention of issues with AI models used in medicine. The source of malfunctioning of predictive models often lies not in the training process but reaches the data acquisition phase or design of the experiment phase.
+
+In this paper, we analyze in detail a single use case - a Kaggle competition related to the detection of abnormalities in X-ray lung images. We demonstrate how a series of simple tests for data imbalance exposes faults in the data acquisition and annotation process. Complex models are able to learn such artifacts and it is difficult to remove this bias during or after the training. Errors made at the data collection stage make it difficult to validate the model correctly.
+
+Based on this use case, we show how to monitor data and model balance (fairness) throughout the life cycle of a predictive model, from data acquisition to parity analysis of model scores.
+  </p>
+</blockquote>
