@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Prevention is better than cure: a case study of the abnormalities detection in the chest"
-date:   2021-06-25 20:00:00 +00:00
+title: "Prevention is better than cure: a case study of the abnormalities detection in the chest"
+date: 2021-06-25 20:00:00 +00:00
 image: /images/prevention.png
 categories: research
 venue: "CVPR Workshops (Beyond Fairness: Towards a Just, Equitable, and Accountable Computer Vision)"
