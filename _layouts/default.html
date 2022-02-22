@@ -74,7 +74,7 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <em>{{post.venue}}</em>, {{post.data}}
               <br>
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
@@ -128,7 +128,7 @@
               <br>
               <em>{{post.university}} {{post.courserole}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{post.data}}
 
               <br>
               {% if post.slides %}
@@ -201,7 +201,7 @@
               <br>
               <em>{{post.university}} {{post.courserole}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{post.data}}
 
               <br>
               {% if post.website %}

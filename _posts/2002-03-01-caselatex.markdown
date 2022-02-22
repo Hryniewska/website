@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Case Study - What should you know before writing your thesis"
-date: 2022-03-01 21:00:00 +00:00
+data: "2022-03-01"
 image: /images/case2022lecture.png
 categories: teaching
 university: WUT
