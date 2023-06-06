@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Challenges facing the explainability of age prediction models: case study for two modalities"
+data: 2023
+image: /images/eeg.png
+categories: research
+authors: "Mikołaj Spytek, <strong>Weronika Hryniewska-Guzik</strong>, Jarosław Zygierewicz, Jacek Rogala, Przemysław Biecek"
+venue: "Aging Hackathon at the 7th International workshop on Health Intelligence (W3PHIAI-23) at AAAI-23 Conference"
+arxiv: https://arxiv.org/abs/2303.06640
+code: https://github.com/pbiecek/challenges-xai-aging-aaai23
+---
+We investigate the use of Explainable Artificial Intelligence (XAI) for age prediction focusing on two specific modalities, EEG signal and lung X-rays. We share predictive models for age to facilitate further research on new techniques to explain models for these modalities.

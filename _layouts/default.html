@@ -25,9 +25,9 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Weronika Hryniewska
+                Weronika Hryniewska-Guzik
               </h1>
-              <p> I am a PhD student at <a href="https://ww4.mini.pw.edu.pl/">the Faculty of Mathematics and Information Science</a> at <a href="https://www.pw.edu.pl/engpw/">Warsaw University of Technology</a> in Poland, where I work on medical computer vision and explainable artificial intelligence. My PhD advisor is <a href="https://biecek.pl/">Przemysław Biecek</a>.
+              <p> I am a PhD student at <a href="https://ww4.mini.pw.edu.pl/">the Faculty of Mathematics and Information Science</a> at <a href="https://www.pw.edu.pl/engpw/">Warsaw University of Technology</a> in Poland, where I specialize in responsible explainable Deep Learning on lung images. My PhD advisor is <a href="https://biecek.pl/">Przemysław Biecek</a>.
               </p>
               <p>
               
@@ -36,7 +36,7 @@
                 I have an MSc in Computer Science from <a href="https://p.lodz.pl/en">Łódź University of Technology</a>. I have a BSc in Mechatronics from <a href="https://www.pw.edu.pl/engpw/">Warsaw University of Technology</a>.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/Nz2omB3M"> Email</a> &nbsp;/&nbsp;
+                <a target="_blank" href="https://mailhide.io/e/NB6dS565"> Email</a> &nbsp;/&nbsp;
 		<a href="https://www.linkedin.com/in/weronikahryniewska"> LinkedIn </a> &nbsp;/&nbsp;
                 <a href="https://github.com/Hryniewska">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=aJeg3IQAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
@@ -54,7 +54,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, explainable artificial inteligence and their applications in medicine.
+                I'm interested in deep learning, computer vision, explainable artificial inteligence and their applications in medicine.
               </p>
             </td>
           </tr>
@@ -93,6 +93,9 @@
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
