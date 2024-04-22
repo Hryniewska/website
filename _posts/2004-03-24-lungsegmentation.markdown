@@ -5,7 +5,7 @@ data: 2024
 image: /images/lungsegmentation.png
 categories: research
 authors: "<strong>Weronika Hryniewska-Guzik</strong>, Jakub Bilski, Jakub Brojacz, Bartosz Chrostowski, Jakub Drak Sbahi, Przemysław Biecek"
-venue: "accepted at PP-RAI conference"
+venue: "PP-RAI conference"
 arxiv: https://arxiv.org/abs/TODO
 code: https://github.com/Hryniewska/lung-segmentation-on-X-rays
 ---
