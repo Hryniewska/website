@@ -6,7 +6,7 @@ image: /images/lungsegmentation.png
 categories: research
 authors: "<strong>Weronika Hryniewska-Guzik</strong>, Jakub Bilski, Jakub Brojacz, Bartosz Chrostowski, Jakub Drak Sbahi, Przemysław Biecek"
 venue: "PP-RAI conference"
-arxiv: https://arxiv.org/abs/TODO
+arxiv: https://arxiv.org/abs/2404.06455
 code: https://github.com/Hryniewska/lung-segmentation-on-X-rays
 ---
 This study evaluates deep learning solutions for lung segmentation in X-rays, ranking existing methods and analyzing their performance under diverse image modifications. Out of 61 analyzed papers, only nine offered implementation or pre-trained models, enabling assessment of three prominent methods: Lung VAE, TransResUNet, and CE-Net.
